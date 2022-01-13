@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ADMIN USERMANAGEMENT</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container-fluid header">
+  <span class="helperland">
+  helperland
+</span>
+
+  <img src="img/forma-1.png"
+     class="Forma-1">
+   <span class="James-Smith">
+     James Smith
+   </span>
+   <img src="img/shape-1.png"
+     class="shape-1">
+</div>
+<div class="wrapper">
+	
+ <nav id="sidebar">
+ 	 <ul class="lisst-unstyled components">
+ 	 	<li>
+ 	 		<a href="#"> Service Management</a>
+ 	 	</li>
+      <li>
+      <a href="#"> Role Management</a>
+    </li>
+ 	 	<li>
+ 	 		<a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Coupon Code Management</a>
+ 	 		<ul class="collapse list-unstyled" id="pageSubmenu">
+ 	 			<li>
+ 	 				<a href="#">Coupon Codes</a>
+ 	 			</li>
+ 	 			<li>
+ 	 				<a href="#">Usage History</a>
+ 	 			</li>
+ 	 		</ul>
+ 	 	</li>
+
+ 	 	 	 	<li>
+ 	 				<a href="#">Policy</a>
+ 	 			</li>
+
+         <li>
+ 	 				<a href="#"> Escalation Management</a>
+ 	 			</li>
+        <li>
+          <a href="#">Service Requests</a>
+        </li>
+        <li>
+          <a href="#">Service Providers</a>
+        </li>
+        <li>
+          <a href="#">User Management</a>
+        </li>
+        <li>
+      <a href="#page1Submenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+      Finance Module</a>
+      <ul class="collapse list-unstyled" id="page1Submenu">
+        <li>
+          <a href="#">All transaction</a>
+        </li>
+        <li>
+          <a href="#">Generate Payment</a>
+        </li>
+        <li>
+          <a href="#">Customer Invoices</a>
+        </li>
+      </ul>
+        <li>
+          <a href="#">Zip Code Management </a>
+        </li>
+        <li>
+          <a href="#">Rating Management</a>
+        </li>
+        <li>
+          <a href="#">Inquiry Management</a>
+        </li>
+         <li>
+          <a href="#">Newsletter Management</a>
+        </li>
+        <li>
+        <a href="#page2Submenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+      Content Management</a>
+      <ul class="collapse list-unstyled" id="page2Submenu">
+        <li>
+          <a href="#">Blog</a>
+        </li>
+        <li>
+          <a href="#">FAQs</a>
+        </li>
+      </ul>
+
+      </ul>
+    </li>
+
+
+           
+
+ 	 </ul>
+ </nav>
+
+
+<div id="content" class="container-fluid">
+	 
+  <span class="User-Management">
+  Service Request
+</span>
+
+
+  <div class="Rectangle-653-copy">
+    <div class="row">
+      <div class="col-auto" style="width: 117px;">
+       <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Service Id" style="padding-left: 2px;font-size: 16px;">
+    </div>
+
+      <div class="col-auto" style="height: 46px;width: 111px;padding-left: 2px;">
+    <div class="form-group">
+    <select class="form-control" id="exampleFormControlSelect1" style="padding-left: 0px;font-size: 14px;">
+      <option >Customer</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+</div>
+
+    <div class="col-auto" style="  height: 46px; width: 152px;margin-left: -10px;">
+    <div class="form-group">
+    <select class="form-control" id="exampleFormControlSelect1" style="padding-left: 0px;font-size: 14px;">
+      <option>Servic Provider</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+</div>
+
+ <div class="col-auto" style="  height: 46px;width: 120px;margin-left: -10px;;font-size: 14px;">
+    <div class="form-group">
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Status</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+</div>
+  
+  <div class="col-auto" style="width: 169px;margin-left: -10px;">
+      <label class="sr-only" for="inlineFormInputGroup">To Date</label>
+      <div class="input-group mb-2">
+        <div class="input-group-prepend">
+          <div class="input-group-text" style="background-color: white;width: 40px;"><img src="./img/frm_d.png" style="width: 20px;padding-left: 0px;" ></div>
+        </div>
+        <input type="number" class="form-control" id="inlineFormInputGroup" placeholder="From Date" style="font-size: 16px;">
+      </div>
+    </div>
+
+    <div class="col-auto" style="width: 141px;padding-left: 0px;font-size: 14px;">
+      <label class="sr-only" for="inlineFormInputGroup">To Date</label>
+      <div class="input-group mb-2">
+        <div class="input-group-prepend">
+          <div class="input-group-text" style="background-color: white;"><img src="./img/frm_d.png"></div>
+        </div>
+        <input type="number" class="form-control" id="inlineFormInputGroup" placeholder="To Date">
+      </div>
+    </div>
+
+    <div class="col-auto" style="width: 110px;">
+       <input type="number" class="form-control" id="inlineFormInputGroup" placeholder="Zip code">
+    </div>
+
+    <div class="col-auto">
+      <button type="button" class="btn Rounded-Rectangle-2-copy-17">
+        <span class="Search">Search</span>
+      </button>
+    </div>
+    <div class="col-auto">
+      <button type="button" class="btn Rounded-Rectangle-2-copy-172">
+        <span class="Clear">Clear</span>
+      </button>
+    </div>
+  </div>
+</div>
+  
+  <table class="table">
+  <thead class="headtable text-center">
+    <tr>
+      <th scope="col">Service ID<img src="./img/arrow.png" style="padding-left: 2px;"></th>
+      <th scope="col">Service date<img src="./img/arrow.png" style="padding-left: 2px;"></th>
+      <th scope="col">Customer details<img src="./img/arrow.png" style="padding-left: 2px;"></th>
+      <th scope="col">Service Provider<img src="./img/arrow.png" style="padding-left: 2px;"></th>
+      <th scope="col">Status<img src="./img/arrow.png" style="padding-left: 2px;"></th>
+      <th scope="col">Actions</th>
+    </tr>
+  </thead>
+  <tbody class="tablebody text-center">
+    <tr>
+      <td>323436</td>
+      <td>
+        <div class="row">
+                <img src="./img/calculator.png" class="img-fluid" alt="Responsive image">  
+                <span class="spans"> 09/04/2018</span>
+              </div>
+              <div class="row">
+                <img src="./img/layer-712.jpg" class="img-fluid" alt="Responsive image">  
+                <span class="---1800">12:00 - 18:00</span>
+              </div>
+      </td>
+      <td>
+           <div class="row">
+                <span class="---1801">David Bough</span>
+              </div>
+              <div class="row">
+                <img src="./img/layer-719.png" class="img-fluid" alt="Responsive image"> 
+                <span>Musterstrabe 5,12345 Bonn</span>
+              </div>
+      </td>
+      <td>        
+                 
+      </td>
+      <td><button type="button" class="btn btn-success" style="background-color: #f2bb37;">New</button></td>
+      <td class="text-center"><div class="dropdown" >
+             <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"  style="border-radius:50%; height: 30px;  background-image: url(./img/three-dots-vertical.svg);background-repeat: no-repeat; background-position: center;background-color:#f4f4f4;border-color: white;">
+                  <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                       <li><a href="#">Edit</a></li>
+                      <li><a href="#">Deactivate</a></li>  
+                   </ul>
+           </div>
+         </td>
+    </tr>
+    <tr>
+      <td>323436</td>
+      <td>
+        <div class="row">
+                <img src="./img/calculator.png" class="img-fluid" alt="Responsive image">  
+                <span class="spans"> 09/04/2018</span>
+              </div>
+              <div class="row">
+                <img src="./img/layer-712.jpg" class="img-fluid" alt="Responsive image">  
+                <span class="---1800">12:00 - 18:00</span>
+              </div>
+      </td>
+      <td>
+           <div class="row">
+                <span class="---1801">David Bough</span>
+              </div>
+              <div class="row">
+                <img src="./img/layer-719.png" class="img-fluid" alt="Responsive image"> 
+                <span>Musterstrabe 5,12345 Bonn</span>
+              </div>
+      </td>
+      <td>
+        
+      </td>
+      <td><button type="button" class="btn btn-success" style="background-color: #f2bb37;">New</button></td>
+      <td class="text-center"><div class="dropdown" >
+             <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"  style="border-radius:50%; height: 30px;  background-image: url(./img/three-dots-vertical.svg);background-repeat: no-repeat; background-position: center;background-color:#f4f4f4;border-color: white;">
+                  <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                       <li><a href="#">Edit</a></li>
+                      <li><a href="#">Deactivate</a></li>  
+                   </ul>
+           </div>
+         </td>
+    </tr>
+    <tr>
+      <td>323436</td>
+      <td>
+        <div class="row">
+                <img src="./img/calculator.png" class="img-fluid" alt="Responsive image">  
+                <span class="spans"> 09/04/2018</span>
+              </div>
+              <div class="row">
+                <img src="./img/layer-712.jpg" class="img-fluid" alt="Responsive image">  
+                <span class="---1800">12:00 - 18:00</span>
+              </div>
+      </td>
+      <td>
+           <div class="row">
+                <span class="---1801">David Bough</span>
+              </div>
+              <div class="row">
+                <img src="./img/layer-719.png" class="img-fluid" alt="Responsive image"> 
+                <span>Musterstrabe 5,12345 Bonn</span>
+              </div>
+      </td>
+      <td>
+           <div class="row">
+                  <div class="col-auto">
+                  <span>
+                    <img class="hat" src="img/hat.png" alt="">
+                  </span>
+                </div>
+                <div class="col-auto">
+                  <span >  Lyum Watson</span> 
+                  <div>
+                    <img src="img/star.png" alt=""> 
+                    <img src="img/star.png" alt=""> 
+                    <img src="img/star.png" alt=""> 
+                    <img src="img/star.png" alt=""> 
+                    <img src="img/emptystar.png" alt=""> 4 </div></div>
+      </td>
+      <td><button type="button" class="btn btn-success" style="background-color: #1fb6ff;">Pending</button></td>
+      <td class="text-center"><div class="dropdown" >
+             <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"  style="border-radius:50%; height: 30px;  background-image: url(./img/three-dots-vertical.svg);background-repeat: no-repeat; background-position: center;background-color:#f4f4f4;border-color: white;">
+                  <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                       <li><a href="#">Edit & Reschedule</a></li>
+                      <li><a href="#">Refund</a></li>  
+                      <li><a href="#">Cancel</a></li>
+                      <li><a href="#">Change SP</a></li>
+                      <li><a href="#">Escalate</a></li>
+                      <li><a href="#">History Log</a></li>
+                      <li><a href="#">Download Invoice</a></li>
+
+                   </ul>
+           </div>
+         </td>
+    </tr>
+    <tr>
+      <td>323436</td>
+      <td>
+        <div class="row">
+                <img src="./img/calculator.png" class="img-fluid" alt="Responsive image">  
+                <span class="spans"> 09/04/2018</span>
+              </div>
+              <div class="row">
+                <img src="./img/layer-712.jpg" class="img-fluid" alt="Responsive image">  
+                <span class="---1800">12:00 - 18:00</span>
+              </div>
+      </td>
+      <td>
+           <div class="row">
+                <span class="---1801">David Bough</span>
+              </div>
+              <div class="row">
+                <img src="./img/layer-719.png" class="img-fluid" alt="Responsive image"> 
+                <span>Musterstrabe 5,12345 Bonn</span>
+              </div>
+      </td>
+      <td>
+           <div class="row">
+                  <div class="col-auto">
+                  <span>
+                    <img class="hat" src="img/hat.png" alt="">
+                  </span>
+                </div>
+                <div class="col-auto">
+                  <span >  Lyum Watson</span> 
+                  <div>
+                    <img src="img/star.png" alt=""> 
+                    <img src="img/star.png" alt=""> 
+                    <img src="img/star.png" alt=""> 
+                    <img src="img/star.png" alt=""> 
+                    <img src="img/emptystar.png" alt=""> 4 </div></div>
+      </td>
+      <td><button type="button" class="btn btn-success" style="background-color:#1fb6ff;">Pending</button></td>
+      <td class="text-center"><div class="dropdown" >
+             <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"  style="border-radius:50%; height: 30px;  background-image: url(./img/three-dots-vertical.svg);background-repeat: no-repeat; background-position: center;background-color:#f4f4f4;border-color: white;">
+                  <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                       <li><a href="#">Edit & Reschedule</a></li>
+                      <li><a href="#">Refund</a></li>  
+                      <li><a href="#">Cancel</a></li>
+                      <li><a href="#">Change SP</a></li>
+                      <li><a href="#">Escalate</a></li>
+                      <li><a href="#">History Log</a></li>
+                      <li><a href="#">Download Invoice</a></li>
+                   </ul>
+           </div>
+         </td>
+    </tr>
+    <tr>
+      <td>323436</td>
+      <td>
+        <div class="row">
+                <img src="./img/calculator.png" class="img-fluid" alt="Responsive image">  
+                <span class="spans"> 09/04/2018</span>
+              </div>
+              <div class="row">
+                <img src="./img/layer-712.jpg" class="img-fluid" alt="Responsive image">  
+                <span class="---1800">12:00 - 18:00</span>
+              </div>
+      </td>
+      <td>
+           <div class="row">
+                <span class="---1801">David Bough</span>
+              </div>
+              <div class="row">
+                <img src="./img/layer-719.png" class="img-fluid" alt="Responsive image"> 
+                <span>Musterstrabe 5,12345 Bonn</span>
+              </div>
+      </td>
+      <td>
+             <div class="row">
+                  <div class="col-auto">
+                  <span>
+                    <img class="hat" src="img/hat.png" alt="">
+                  </span>
+                </div>
+                <div class="col-auto">
+                  <span >  Lyum Watson</span> 
+                  <div>
+                    <img src="img/star.png" alt=""> 
+                    <img src="img/star.png" alt=""> 
+                    <img src="img/star.png" alt=""> 
+                    <img src="img/star.png" alt=""> 
+                    <img src="img/emptystar.png" alt=""> 4 </div></div>
+      </td>
+      <td><button type="button" class="btn btn-success" >Completed</button></td>
+      <td class="text-center"><div class="dropdown" >
+             <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"  style="border-radius:50%; height: 30px;  background-image: url(./img/three-dots-vertical.svg);background-repeat: no-repeat; background-position: center;background-color:#f4f4f4;border-color: white;">
+                  <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Refund</a></li>  
+                      <li><a href="#">Escalate</a></li>
+                      <li><a href="#">History Log</a></li>
+                      <li><a href="#">Download Invoice</a></li>
+                   </ul>
+           </div>
+         </td>
+    </tr>
+    <tr>
+      <td>323436</td>
+      <td>
+        <div class="row">
+                <img src="./img/calculator.png" class="img-fluid" alt="Responsive image">  
+                <span class="spans"> 09/04/2018</span>
+              </div>
+              <div class="row">
+                <img src="./img/layer-712.jpg" class="img-fluid" alt="Responsive image">  
+                <span class="---1800">12:00 - 18:00</span>
+              </div>
+      </td>
+      <td>
+           <div class="row">
+                <span class="---1801">David Bough</span>
+              </div>
+              <div class="row">
+                <img src="./img/layer-719.png" class="img-fluid" alt="Responsive image"> 
+                <span>Musterstrabe 5,12345 Bonn</span>
+              </div>
+      </td>
+      <td>
+               <div class="row">
+                  <div class="col-auto">
+                  <span>
+                    <img class="hat" src="img/hat.png" alt="">
+                  </span>
+                </div>
+                <div class="col-auto">
+                  <span >  Lyum Watson</span> 
+                  <div>
+                    <img src="img/star.png" alt=""> 
+                    <img src="img/star.png" alt=""> 
+                    <img src="img/star.png" alt=""> 
+                    <img src="img/star.png" alt=""> 
+                    <img src="img/emptystar.png" alt=""> 4 </div></div>
+      </td>
+      <td><button type="button" class="btn btn-success" >Completed</button></td>
+      <td class="text-center"><div class="dropdown" >
+             <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"  style="border-radius:50%; height: 30px;  background-image: url(./img/three-dots-vertical.svg);background-repeat: no-repeat; background-position: center;background-color:#f4f4f4;border-color: white;">
+                  <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                       <li><a href="#">Refund</a></li>  
+                      <li><a href="#">Escalate</a></li>
+                      <li><a href="#">History Log</a></li>
+                      <li><a href="#">Download Invoice</a></li>
+                   </ul>
+           </div>
+         </td>
+    </tr>
+    <tr>
+      <td>323436</td>
+      <td>
+        <div class="row">
+                <img src="./img/calculator.png" class="img-fluid" alt="Responsive image">  
+                <span class="spans"> 09/04/2018</span>
+              </div>
+              <div class="row">
+                <img src="./img/layer-712.jpg" class="img-fluid" alt="Responsive image">  
+                <span class="---1800">12:00 - 18:00</span>
+              </div>
+      </td>
+      <td>
+           <div class="row">
+                <span class="---1801">David Bough</span>
+              </div>
+              <div class="row">
+                <img src="./img/layer-719.png" class="img-fluid" alt="Responsive image"> 
+                <span>Musterstrabe 5,12345 Bonn</span>
+              </div>
+      </td>
+      <td>
+             <div class="row">
+                  <div class="col-auto">
+                  <span>
+                    <img class="hat" src="img/hat.png" alt="">
+                  </span>
+                </div>
+                <div class="col-auto">
+                  <span >  Lyum Watson</span> 
+                  <div>
+                    <img src="img/star.png" alt=""> 
+                    <img src="img/star.png" alt=""> 
+                    <img src="img/star.png" alt=""> 
+                    <img src="img/star.png" alt=""> 
+                    <img src="img/emptystar.png" alt=""> 4 </div></div>
+      </td>
+      <td><button type="button" class="btn btn-success" style="background-color: #ff6b6b;">Cancelled</button></td>
+      <td class="text-center"><div class="dropdown" >
+             <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"  style="border-radius:50%; height: 30px;  background-image: url(./img/three-dots-vertical.svg);background-repeat: no-repeat; background-position: center;background-color:#f4f4f4;border-color: white;">
+                  <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                       <li><a href="#">Edit</a></li>
+                      <li><a href="#">Deactivate</a></li>  
+                   </ul>
+           </div>
+         </td>
+    </tr>
+    <tr>
+      <td>323436</td>
+      <td>
+        <div class="row">
+                <img src="./img/calculator.png" class="img-fluid" alt="Responsive image">  
+                <span class="spans"> 09/04/2018</span>
+              </div>
+              <div class="row">
+                <img src="./img/layer-712.jpg" class="img-fluid" alt="Responsive image">  
+                <span class="---1800">12:00 - 18:00</span>
+              </div>
+      </td>
+      <td>
+           <div class="row">
+                <span class="---1801">David Bough</span>
+              </div>
+              <div class="row">
+                <img src="./img/layer-719.png" class="img-fluid" alt="Responsive image"> 
+                <span>Musterstrabe 5,12345 Bonn</span>
+              </div>
+      </td>
+      <td>
+             <div class="row">
+                  <div class="col-auto">
+                  <span>
+                    <img class="hat" src="img/hat.png" alt="">
+                  </span>
+                </div>
+                <div class="col-auto">
+                  <span >  Lyum Watson</span> 
+                  <div>
+                    <img src="img/star.png" alt=""> 
+                    <img src="img/star.png" alt=""> 
+                    <img src="img/star.png" alt=""> 
+                    <img src="img/star.png" alt=""> 
+                    <img src="img/emptystar.png" alt=""> 4 </div></div>
+      </td>
+      <td><button type="button" class="btn btn-success" >Completed</button></td>
+      <td class="text-center"><div class="dropdown" >
+             <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"  style="border-radius:50%; height: 30px;  background-image: url(./img/three-dots-vertical.svg);background-repeat: no-repeat; background-position: center;background-color:#f4f4f4;border-color: white;">
+                  <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                       <li><a href="#">Refund</a></li>  
+                      <li><a href="#">Escalate</a></li>
+                      <li><a href="#">History Log</a></li>
+                      <li><a href="#">Download Invoice</a></li> 
+                   </ul>
+           </div>
+         </td>
+    </tr>
+    <tr>
+      <td>323436</td>
+      <td>
+        <div class="row">
+                <img src="./img/calculator.png" class="img-fluid" alt="Responsive image">  
+                <span class="spans"> 09/04/2018</span>
+              </div>
+              <div class="row">
+                <img src="./img/layer-712.jpg" class="img-fluid" alt="Responsive image">  
+                <span class="---1800">12:00 - 18:00</span>
+              </div>
+      </td>
+      <td>
+           <div class="row">
+                <span class="---1801">David Bough</span>
+              </div>
+              <div class="row">
+                <img src="./img/layer-719.png" class="img-fluid" alt="Responsive image"> 
+                <span>Musterstrabe 5,12345 Bonn</span>
+              </div>
+      </td>
+      <td>
+             <div class="row">
+                  <div class="col-auto">
+                  <span>
+                    <img class="hat" src="img/hat.png" alt="">
+                  </span>
+                </div>
+                <div class="col-auto">
+                  <span >  Lyum Watson</span> 
+                  <div>
+                    <img src="img/star.png" alt=""> 
+                    <img src="img/star.png" alt=""> 
+                    <img src="img/star.png" alt=""> 
+                    <img src="img/star.png" alt=""> 
+                    <img src="img/emptystar.png" alt=""> 4 </div></div>
+      </td>
+      <td class="text-center"><button type="button" class="btn btn-success" style="background-color: #ff6b6b;">Cancelled</button></td>
+      <td class="text-center"><div class="dropdown" >
+             <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"  style="border-radius:50%; height: 30px;  background-image: url(./img/three-dots-vertical.svg);background-repeat: no-repeat; background-position: center;background-color:#f4f4f4;border-color: white;">
+                  <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                       <li><a href="#">Edit</a></li>
+                      <li><a href="#">Deactivate</a></li>  
+                   </ul>
+           </div>
+         </td>
+    </tr>
+    <tr>
+      <td>323436</td>
+      <td>
+        <div class="row">
+                <img src="./img/calculator.png" class="img-fluid" alt="Responsive image">  
+                <span class="spans"> 09/04/2018</span>
+              </div>
+              <div class="row">
+                <img src="./img/layer-712.jpg" class="img-fluid" alt="Responsive image">  
+                <span class="---1800">12:00 - 18:00</span>
+              </div>
+      </td>
+      <td>
+           <div class="row">
+                <span class="---1801">David Bough</span>
+              </div>
+              <div class="row">
+                <img src="./img/layer-719.png" class="img-fluid" alt="Responsive image"> 
+                <span>Musterstrabe 5,12345 Bonn</span>
+              </div>
+      </td>
+      <td>
+             <div class="row">
+                  <div class="col-auto">
+                  <span>
+                    <img class="hat" src="img/hat.png" alt="">
+                  </span>
+                </div>
+                <div class="col-auto">
+                  <span >  Lyum Watson</span> 
+                  <div>
+                    <img src="img/star.png" alt=""> 
+                    <img src="img/star.png" alt=""> 
+                    <img src="img/star.png" alt=""> 
+                    <img src="img/star.png" alt=""> 
+                    <img src="img/emptystar.png" alt=""> 4 </div></div>
+      </td>
+      <td><button type="button" class="btn btn-success" >Completed</button></td>
+      <td class="text-center"><div class="dropdown" >
+             <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"  style="border-radius:50%; height: 30px;  background-image: url(./img/three-dots-vertical.svg);background-repeat: no-repeat; background-position: center;background-color:#f4f4f4;border-color: white;">
+                  <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                       <li><a href="#">Refund</a></li>  
+                      <li><a href="#">Escalate</a></li>
+                      <li><a href="#">History Log</a></li>
+                      <li><a href="#">Download Invoice</a></li>
+                   </ul>
+           </div>
+         </td>
+    </tr>
+    <tr>
+    </tr> 
+  </tbody>
+</table>
+
+
+
+    <div class="Rectangle-653-copy2">
+      <div class="row">
+        <div class="col-auto" style="margin-top: 10px;">
+         <span >Show </span>  
+         </div>
+         <div class="col-auto" >                                     
+         <div class="form-group" style="height: 40px;width: 70px;">
+            <select class="form-control">
+            <option>10</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+         </div> 
+        </div>
+        <div class="col-auto" style="margin-top: 10px;">
+          <span>Entries</span>
+        </div>
+        <div class="col-auto d-flex justify-content-end" style="margin-left: 450px;">
+          <button class="underbutton"><a href="#">&lt;</a></button>
+          <button class="underbutton" style="background-color: #565656;color: white;">1</button>
+          <button class="underbutton">2</button>
+          <button class="underbutton">3</button>
+          <button class="underbutton">4</button>
+          <button class="underbutton">5</button>
+          <button class="underbutton"><a href="#">&gt;</a></button>
+        </div>
+     </div>
+  </div>
+
+    <span class="-Helperland-All-rights-reserved">
+  ©2018 Helperland. All rights reserved.
+</span>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

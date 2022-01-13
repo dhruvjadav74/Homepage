@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body{
+	 font-family: 'Roboto';
+   font-weight: bold;
+	background: #fafafa;
+}
+p{
+	font-family: 'Roboto';
+	font-size: 1.1em;
+	font-weight: 300;
+	line-height: 1.7em;
+	color: #999;
+}
+a,
+a:hover,
+a:focus{
+	color: #646464;
+	text-decoration: none;
+	transition: all 0.3s;
+}
+
+.header {
+  height: 60px;
+  width: 1366px;
+  background-color: #1fb6ff;
+}
+.helperland {
+  height: 39px;
+  margin-top: 100px;
+  font-family: Roboto;
+  font-size: 37.5px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: white;
+}
+img.Forma-1 {
+  width: 36px;
+  height: 36px;
+  margin: 0 7px 4px 956px;
+  object-fit: contain;
+}
+img.Shape-1 {
+  width: 26px;
+  height: 29px;
+  margin: 2px 0 9px 18px;
+  object-fit: contain;
+  background-color: var(--white);
+}
+.James-Smith {
+  width: 93px;
+  height: 12px;
+  margin: 11px 18px 17px 7px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: left;
+  color: white;
+}
+/* Side Bar*/
+
+
+
+#sidebar.active {
+    margin-left: -250px;
+}
+.wrapper{
+	display: flex;
+	text-decoration: none;
+	transition: all 0.3s;
+}
+
+#sidebar{
+	width: 350px;
+	background: #ffffff;
+	transition: all 0.3s;
+	 box-shadow: 2px 0 5.5px 0.5px rgba(0, 0, 0, 0.1);
+}
+
+
+#sidebar ul.components{
+	padding: 20px 0;
+}
+
+#sidebar ul p{
+	color: #fff;
+	padding: 10px;
+}
+
+#sidebar ul li a{
+	padding: 10px;
+	border-bottom: 1px solid #e5e5e5;
+	font-size: 0.9em;
+	display: block;
+	height: 50px;
+}
+
+#sidebar ul li a:hover{
+	color: #1fb6ff;
+	background: #f9f9f9;
+}
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+	color:#646464;
+	background:  #f9f9f9;
+}
+
+a[data-toggle="collapse"]{
+	position: relative;
+}
+
+.dropdown-toggle::after{
+	display: block;
+	position: absolute;
+	top: 40%;
+	right: 14%;
+	transform: translateY(-50%);
+}
+ul ul a{
+	font-size: 0.9em !important;
+	padding-left: 10px !important;
+	background: #f9f9f9;
+}
+
+#content{
+
+	 background-color: #f2f4f5;
+}
+.User-Management {
+  width: 181px;
+  height: 20px;
+  margin: 34px 736px 16px 24px;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.05;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--brownish-grey);
+}
+.Rounded-Rectangle-2-copy-19 {
+  width: 132px;
+  height: 36px;
+  border-radius: 4px;
+  background-color: #1fb6ff;
+}
+.Add-New-User {
+  width: 89px;
+  height: 11px;
+  margin: 3px 0 2px 7px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--white);
+}
+
+.Rectangle-653-copy {
+  width: 1053px;
+  height: 86px;
+  margin: 10px 1px 20px 20px;
+  padding: 20px 21px 20px 15px;
+  border: solid 1px #e1e1e1;
+  background-color: var(--white);
+}
+.Rectangle-653-copy2 {
+  width: 1053px;
+  height: 86px;
+  margin: 0px 1px 20px 20px;
+  padding: 20px 21px 20px 15px;
+  border: solid 1px var(--white-four);
+  background-color: var(--white);
+}
+.Rounded-Rectangle-2-copy-17 {
+  padding-left: 0px;
+  width: 50px;
+  background-color: #1fb6ff;
+}
+.Rounded-Rectangle-2-copy-172 {
+  padding-left: 0px;
+  width: 50px;
+  margin-left: -10px;
+  background-color: white;
+
+  border: solid 1px #dedddd;
+}
+.Search {
+  width: 49px;
+  height: 12px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--white);
+}
+.hat{
+  padding: 8px 4px;
+  border: solid 1px #aaa;
+  border-radius: 25px;
+  background-color: white;
+}
+.Clear {
+  width: 37px;
+  height: 12px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--brownish-grey);
+}
+.table{
+  width: 1053px;
+  height: 776px;
+  margin: 20px 1px 0px 20px;
+  padding: 0 0 15px;
+  border: solid 1px #e1e1e1;
+}
+.headtable{
+  width: 1053px;
+  height: 56px;
+  margin: 0 0 16px;
+  padding: 21px 14px 18px 15px;
+  border: solid 1px #e1e1e1;
+  background-color: #f9f9f9;
+}
+.tablebody{
+	background-color: white;
+}
+.underbutton {
+  width: 40px;
+  height: 40px;
+  border: solid 1px #d6d6d6;
+  background-color: white;
+  color: #646464
+}
+.-Helperland-All-rights-reserved {
+  width: 235px;
+  height: 14px;
+  margin: 24px 686px 22px 20px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: right;
+  color: #a2a6a8;
+}
